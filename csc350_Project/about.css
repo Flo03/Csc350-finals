@@ -1,0 +1,87 @@
+/* Body styling */
+body {
+    background-color: #D3E8D1; /* Background color */
+    color: #333; /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Font */
+}
+
+/* Navbar styling */
+.navbar {
+}
+.navbar-nav input {
+    background-color: #D3E8D1; /* Background color */
+}
+
+.logoimage {
+}
+
+/* Header styling for about section */
+.about-header {
+    background-color: #D3E8D1; /* Background color */
+    padding-bottom: 0; /* Bottom padding */
+    margin-bottom: 40px; /* Bottom margin */
+}
+
+/* Content styling for about section */
+.about-content h2 {
+    font-family: 'Montserrat', sans-serif; /* Font */
+    color: #333; /* Text color */
+    font-weight: 700; /* Font weight */
+}
+
+.about-content p {
+    font-family: 'Open Sans', sans-serif; /* Font */
+    color: #555; /* Text color */
+}
+
+/* Image responsiveness styling */
+.img-fluid {
+    max-width: 70%; /* Maximum width */
+    height: auto; /* Automatically adjust height */
+    float: right; /* Float the image to the right */
+    margin-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    font-family: 'Open Sans', sans-serif; /* Font */
+    background-color: whitesmoke; /* Background color */
+    color: black; /* Text color */
+    padding: 20px 0; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+/* Styling for lists in the footer */
+footer .list-inline {
+    margin-bottom: 20px; /* Bottom margin */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-inline-item {
+    margin-right: 10px; /* Right margin */
+    display: inline-block; /* Display inline */
+}
+
+footer .list-unstyled {
+    color: black; /* Text color */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-unstyled a {
+    color: inherit; /* Inherit color */
+    margin: 0 5px; /* Margin */
+}
+
+/* Social media icon styling */
+.fab {
+    padding: 20px; /* Padding */
+    font-size: 30px; /* Font size */
+    width: 50px; /* Width */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for social media icons */
+.fab:hover {
+    opacity: 0.7; /* Opacity on hover */
+}

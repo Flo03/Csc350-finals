@@ -1,0 +1,116 @@
+/* Body styling */
+body {
+}
+
+/* Navbar styling */
+.navbar {
+}
+
+.navbar-brand {
+}
+
+.logoimage {
+}
+
+/* Register form container styling */
+.register-container {
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    min-height: 100vh; /* Minimum height to take full viewport height */
+    padding: 20px; /* Padding around the container */
+}
+
+/* Container for form elements */
+.form-container {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 30px; /* Padding around the form */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 20px; /* Rounded corners */
+    width: 100%;
+    max-width: 400px; /* Max width for form */
+}
+
+/* Styling for form elements */
+.register-form .form-group {
+    margin-bottom: 30px; /* Space between form groups */
+}
+
+.register-form .form-group label {
+    font-weight: bold; /* Bold labels for clarity */
+    color: rgba(117,169,145,1); /* Soft green matches theme */
+}
+
+.register-form .form-group input {
+    padding: 10px; /* Comfortable padding inside inputs */
+    border-radius: 5px; /* Rounded borders for inputs */
+    border: 1px solid rgba(117,169,145,1); /* Subtle green border */
+}
+
+.register-form .form-group input:hover,
+.register-form .form-group input:focus {
+    border-color: #33703F; /* Darker green on focus/hover */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: rgba(117, 169, 145, 1); /* Soft green button */
+    border: none; /* No border for a cleaner look */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px; /* Padding for comfort */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-primary {
+    background-color: rgba(117, 169, 145, 1); /* Soft green button */
+    border: none; /* No border for a cleaner look */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 20px; /* Padding for comfort */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    margin: 0 auto; /* Center align the button */
+    display: block; /* Make the button a block element */
+}
+
+.btn-primary:hover {
+    background-color: #33703F; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    font-family: 'Open Sans', sans-serif; /* Consistent font with body */
+    background-color: whitesmoke; /* Light gray background */
+    color: black; /* Default text color for readability */
+    padding: 20px 0; /* Padding above and below */
+    text-align: center; /* Centered text */
+}
+
+/* Styling for social media icons */
+.fab {
+    padding: 20px; /* Sufficient padding for touch targets */
+    font-size: 30px; /* Large icons for visibility */
+    width: 50px; /* Fixed width for alignment */
+    text-align: center; /* Center text (icons) */
+    text-decoration: none; /* No underline */
+}
+
+.fab:hover {
+    opacity: 0.7; /* Fade effect on hover for interactivity */
+}
+
+/* List styling in footer */
+footer .list-inline {
+    margin-bottom: 20px; /* Space below list */
+}
+
+footer .list-inline-item {
+    margin-right: 10px; /* Space between list items */
+}
+
+footer .list-unstyled a {
+    color: inherit; /* Link colors match text */
+    margin: 0 5px; /* Space around links */
+}

@@ -1,0 +1,160 @@
+/* Body styling */
+body {
+    background-color: #D3E8D1; /* Background color */
+    color: #333; /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Consistent font */
+    padding: 20px; /* Add padding to increase the body size */
+    margin: 0; /* Ensure no default margin */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #D3E8D1; /* Background color */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif; /* Font */
+    font-weight: bold; /* Font weight */
+    color: lightsalmon; /* Text color */
+}
+
+/* Styling for navbar input elements */
+.navbar-nav input {
+    background-color: #D3E8D1; /* Background color */
+}
+
+/* Styling for logo image */
+.logoimage {
+    height: 90px; /* Height */
+    width: auto; /* Automatically adjust width */
+    margin-left: 10px; /* Left margin */
+}
+
+/* Hero section styling */
+.hero-section {
+    background-color: #D3E8D1; /* Background color */
+    padding: 40px 0; /* Padding */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.hero-section h1 {
+    font-family: 'Montserrat', sans-serif; /* Font */
+    color: #333; /* Text color */
+    font-weight: 700; /* Font weight */
+}
+
+.hero-section p {
+    color: #555; /* Text color */
+}
+
+.hero-section .btn-primary {
+    font-family: 'Montserrat', sans-serif; /* Font */
+    background-color: lightsalmon; /* Background color */
+    border-color: #4cae4c; /* Border color */
+}
+
+/* Contact section styling */
+.contact-section {
+    padding: 80px 0; /* Increase padding for bigger size */
+    background-color: #D3E8D1; /* Background color */
+}
+
+.contact-form {
+    background-color: #D3E8D1; /* Background color */
+    padding: 40px; /* Increase padding for bigger size */
+    border-radius: 8px; /* Border radius */
+    margin-bottom: 30px; /* Bottom margin */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.contact-info {
+    background-color: #D3E8D1; /* Background color */
+    padding: 40px; /* Increase padding for bigger size */
+    border-radius: 8px; /* Border radius */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-info img {
+    max-width: 150%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Space above the image */
+    float: left; /* Move the image to the left */
+     /* Space to the right of the image */
+}
+
+
+.contact-form label {
+    font-weight: 700; /* Font weight */
+}
+
+.form-control {
+    border-radius: 0; /* Border radius */
+    border-color: #333; /* Border color */
+}
+
+.btn-primary {
+    background-color: #333; /* Background color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    margin-top: 10px; /* Top margin */
+}
+
+/* Social icons styling */
+.social-icons {
+    padding-top: 10px; /* Top padding */
+}
+
+.social-icons a {
+    color: #333; /* Text color */
+    padding: 0 10px; /* Padding */
+}
+
+/* Footer styling */
+footer {
+    font-family: 'Open Sans', sans-serif; /* Font */
+    background-color: whitesmoke; /* Background color */
+    color: black; /* Text color */
+    padding: 20px 0; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+/* Styling for lists in the footer */
+footer .list-inline {
+    margin-bottom: 20px; /* Bottom margin */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-inline-item {
+    margin-right: 10px; /* Right margin */
+    display: inline-block; /* Display inline */
+}
+
+footer .list-unstyled {
+    color: black; /* Text color */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-unstyled a {
+    color: inherit; /* Inherit color */
+    margin: 0 5px; /* Margin */
+}
+
+/* Social media icon styling */
+.fab {
+    padding: 20px; /* Padding */
+    font-size: 30px; /* Font size */
+    width: 50px; /* Width */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for social media icons */
+.fab:hover {
+    opacity: 0.7; /* Opacity on hover */
+}

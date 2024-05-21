@@ -1,0 +1,96 @@
+/* Overall body styling */
+body {
+    background-color: #D3E8D1; /* Soft green background */
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #FFFFFF; /* White background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Maintain padding for alignment */
+    border-bottom: 1px solid #E0E0E0;/* Optional: subtle line for separation */
+}
+.navbar-nav input {
+    background-color: #D3E8D1; /* Background color */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-right: 20px; /* Space between logo and nav items */
+}
+
+.logoimage {
+    height: 90px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+/*Navbar links styling*/
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Footer styling */
+footer {
+    font-family: 'Open Sans', sans-serif; /* Font */
+    background-color: whitesmoke; /* Background color */
+    color: black; /* Text color */
+    padding: 20px 0; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+/* Styling for lists in the footer */
+footer .list-inline {
+    margin-bottom: 20px; /* Bottom margin */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-inline-item {
+    margin-right: 10px; /* Right margin */
+    display: inline-block; /* Display inline */
+}
+
+footer .list-unstyled {
+    color: black; /* Text color */
+    padding-left: 0; /* Left padding */
+}
+
+footer .list-unstyled a {
+    color: inherit; /* Inherit color */
+    margin: 0 5px; /* Margin */
+}
+
+/* Social media icon styling */
+.fab {
+    padding: 20px; /* Padding */
+    font-size: 30px; /* Font size */
+    width: 50px; /* Width */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for social media icons */
+.fab:hover {
+    opacity: 0.7; /* Opacity on hover */
+}
